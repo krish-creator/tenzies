@@ -1,0 +1,58 @@
+
+main {
+  background: #F5F5F5;
+  border-radius: 10px;
+  height: 90%;
+  width: 90%;
+  margin: auto;
+  gap:10px;
+  display: flex ;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.die-container{
+  margin: 40px 0px;
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  gap: 20px;
+}
+
+.roll-btn{
+  background: #5035FF;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+  border-radius: 3.81277px;
+  border: 0;
+  height: 45px;
+  width:150px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: auto;
+}
+
+.roll-btn:focus {
+  outline: none;
+}
+
+.roll-btn:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.header{
+  font-family: 'Karla', sans-serif;
+  text-align: center;
+  margin-top: auto;
+}
+
+.title{
+  font-weight: 700;
+}
+
+.sub-title{
+  width: 300px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}

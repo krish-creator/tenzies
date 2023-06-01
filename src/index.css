@@ -1,0 +1,12 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root{
+  background-color: #0B2434;
+  height: 100vh;
+  width: auto;
+  display: flex;
+}
